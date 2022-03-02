@@ -32,10 +32,12 @@ sudo chmod +x gradlew
 sudo chmod 777 build.sh
 ```
 
-4. Build
+4. Build and Test
 
 ```
 ./gradlew clean build
+./gradlew jacocoTestReport
+./gradlew run
 
 ```
 
