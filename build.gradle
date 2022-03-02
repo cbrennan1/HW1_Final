@@ -13,6 +13,8 @@ plugins {
     id 'java'
 
     id 'jacoco'
+
+    id 'application'
 }
 
 repositories {
@@ -36,4 +38,8 @@ dependencies {
 
 test {
     useJUnitPlatform()
+}
+
+application{
+    mainClassName = 'main.java.TestCreature'
 }

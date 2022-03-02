@@ -8,3 +8,4 @@ sudo snap install gradle --classic
 sudo chmod +x gradlew
 ./gradlew clean build
 ./gradlew jacocoTestReport
+./gradlew run
