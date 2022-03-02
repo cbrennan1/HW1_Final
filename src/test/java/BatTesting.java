@@ -31,21 +31,21 @@ class BatTesting{
 	
 	
 	static {
-		bat_name = "Shereen";
+		bat_name = "Batman";
 		eat_bat_expected_output = bat_name + " Bat has just eaten a Bat" ;
 		has_eaten_bat_expected_output = bat_name + " Bat has eaten a Bat";
 		
-		ant_name = "Mary Joy";
+		ant_name = "Antman";
 		eat_ant_expected_output = bat_name + " Bat has just eaten a Ant" ;
 		has_eaten_ant_expected_output = bat_name + " Bat has eaten a Ant";
 		
-		fly_name = "Joshua";
+		fly_name = "Flyman";
 		eat_fly_expected_output = bat_name + " Bat has just eaten a Fly" ;
 		has_eaten_fly_expected_output = bat_name + " Bat has eaten a Fly";
 		
-		thing_name = "Raymond";
+		thing_name = "Thingman";
 		
-		tiger_name = "Andrew";
+		tiger_name = "Tigerman";
 		eat_tiger_expected_output = bat_name + " Bat has just eaten a Tiger" ;
 		has_eaten_tiger_expected_output = bat_name + " Bat has eaten a Tiger";
 		
