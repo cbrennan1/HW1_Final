@@ -31,23 +31,23 @@ public class AntTesting{
 	private final static String eat_null_pointer_exception_message;
 		
 	static {
-		ant_name = "Mary Joy";
+		ant_name = "Antman";
 		eat_ant_expected_output = ant_name+ " Ant has just eaten a Ant" ;
 		has_eaten_ant_expected_output = ant_name + " Ant has eaten a Ant";
 		
-		bat_name = "Shereen";
+		bat_name = "Batman";
 		eat_bat_expected_output = ant_name + " Ant has just eaten a Bat" ;
 		has_eaten_bat_expected_output = ant_name + " Ant has eaten a Bat";
 		
-		fly_name = "Joshua";
+		fly_name = "Flyman";
 		eat_fly_expected_output = ant_name + " Ant has just eaten a Fly" ;
 		has_eaten_fly_expected_output = ant_name + " Ant has eaten a Fly";
 		
-		thing_name = "Raymond";
+		thing_name = "Thingman";
 		eat_thing_expected_output = ant_name + " Ant has just eaten a Thing" ;
 		has_eaten_thing_expected_output = ant_name + " Ant has eaten a Thing";
 		
-		tiger_name = "Andrew";
+		tiger_name = "Tigerman";
 		eat_tiger_expected_output = ant_name + " Ant has just eaten a Tiger" ;
 		has_eaten_tiger_expected_output = ant_name + " Ant has eaten a Tiger";
 		
