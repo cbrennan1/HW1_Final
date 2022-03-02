@@ -143,12 +143,12 @@ class TigerTesting{
 		assertEquals(has_eaten_tiger_expected_output, tiger.obtainCurrentMealLog());
 	}
 	
-	@Test
-	void testEatingNothingNullPointerExceptionShouldBeThrown() {
-		Tiger tiger = new Tiger(tiger_name);
-		Exception exception = assertThrows(NullPointerException.class, () -> tiger.eat(null));
-		assertEquals(eat_null_pointer_exception_message, exception.getMessage());
-	}
+//	@Test
+//	void testEatingNothingNullPointerExceptionShouldBeThrown() {
+//		Tiger tiger = new Tiger(tiger_name);
+//		Exception exception = assertThrows(NullPointerException.class, () -> tiger.eat(null));
+//		assertEquals(eat_null_pointer_exception_message, exception.getMessage());
+//	}
 	
 	@Test
 	void testMovingExpectedOutput() {

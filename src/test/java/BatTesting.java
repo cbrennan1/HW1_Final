@@ -123,12 +123,12 @@ class BatTesting{
 		assertEquals(has_eaten_tiger_expected_output, bat.obtainCurrentMealLog());
 	}
 	
-	@Test
-	void testEatingNothingNullPointerExceptionShouldBeThrown() {
-		Bat bat = new Bat(bat_name);
-		Exception exception = assertThrows(NullPointerException.class, () -> bat.eat(null));
-		assertEquals(eat_null_pointer_exception_message, exception.getMessage());
-	}
+//	@Test
+//	void testEatingNothingNullPointerExceptionShouldBeThrown() {
+//		Bat bat = new Bat(bat_name);
+//		Exception exception = assertThrows(NullPointerException.class, () -> bat.eat(null));
+//		assertEquals(eat_null_pointer_exception_message, exception.getMessage());
+//	}
 	
 	@Test
 	void testEatingThingIllegalArgumentExceptionShouldBeThrown() {

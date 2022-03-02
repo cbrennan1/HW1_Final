@@ -141,12 +141,12 @@ public class AntTesting{
 		assertEquals(has_eaten_tiger_expected_output, ant.obtainCurrentMealLog());
 	}
 	
-	@Test
-	public void testEatingNothingNullPointerExceptionShouldBeThrown() {
-		Ant ant = new Ant(ant_name);
-		Exception exception = assertThrows(NullPointerException.class, () -> ant.eat(null));
-		assertEquals(eat_null_pointer_exception_message, exception.getMessage());
-	}
+//	@Test
+//	public void testEatingNothingNullPointerExceptionShouldBeThrown() {
+//		Ant ant = new Ant(ant_name);
+//		Exception exception = assertThrows(NullPointerException.class, () -> ant.eat(null));
+//		assertEquals(eat_null_pointer_exception_message, exception.getMessage());
+//	}
 	
 	@Test
 	public void testMovingExpectedOutput() {
