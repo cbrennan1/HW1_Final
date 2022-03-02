@@ -2,7 +2,7 @@
 # CS445-HW1 Resubmit
 
 -----------------------------------------------------------------------------------------------------------
-The build can be automated by running the build.sh script.
+The build can be automated by running the build.sh script. The generated test report can be found in the created directory 'build' (build/reports/tests/test/index.html)
 ```
 cd HW1_Final
 sudo chmod 777 build.sh
